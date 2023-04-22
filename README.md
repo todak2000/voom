@@ -4,7 +4,7 @@ Voom is the perfect video calling and chat app for staying connected with friend
 
 ### URL
 
-https://techtime-226q.onrender.com
+https://voom-g85y.onrender.com
 
 ![Group 284](https://user-images.githubusercontent.com/26861798/233785357-71acf84e-c121-4df8-8544-677c53c9c126.png)
 
