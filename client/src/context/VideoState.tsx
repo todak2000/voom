@@ -4,11 +4,10 @@ import VideoContext from './VideoContext'
 import { io } from 'socket.io-client'
 import Peer from 'simple-peer'
 import { message } from 'antd'
+import { serverURL } from '../constant'
 
-// const URL = 'https://voom-be.onrender.com/'
-const URL = 'http://localhost:5000/'
 
-export const socket = io(URL)
+export const socket = io(serverURL)
 
 const VideoState: React.FC = ({ children }) => {
   //call

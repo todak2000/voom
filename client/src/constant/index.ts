@@ -6,3 +6,5 @@ export const CopyNote =
 export const startMeetingText = 'Start New Meeting'
 export const joinMeetingText = 'Join Meeting'
 export const sendChatBtnText = 'Send'
+export const serverURL = 'https://voom-be.onrender.com/'
+// export const serverURL = 'http://localhost:5000/'

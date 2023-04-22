@@ -59,7 +59,7 @@ const Chat: React.FC = () => {
       {chat.length ? (
         <div className="sm:min-h-[45vh] h-[30vh] mt-8 flex flex-col items-start overflow-y-scroll">
           {chat.map((msg) => (
-            <div className={msg.type === 'sent' ? 'msg-sent' : 'msg-recieved'}>
+            <div key={msg} className={msg.type === 'sent' ? 'msg-sent' : 'msg-recieved'}>
               {msg.msg}
             </div>
           ))}

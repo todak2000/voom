@@ -36,9 +36,7 @@ const Home: React.FC = () => {
   return (
     <main className="flex flex-row">
       <section
-        className={`bg-home flex ${
-          showChat ? 'w-[70%]' : 'w-screen'
-        } flex-col items-center justify-center bg-brand_primary_color min-h-screen`}
+        className='bg-home flex w-screen flex-col items-center justify-center bg-brand_primary_color min-h-screen'
       >
         <>
           <img src={VoomLogo} alt="logo" width={300} />

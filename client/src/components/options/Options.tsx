@@ -64,6 +64,13 @@ const Options = (): ReactElement => {
   } = useContext(VideoContext)
 
   useEffect(() => {
+    if (callEnded){
+      setShowChat(!showChat)
+      navigate('/')
+    }
+  }, [callEnded])
+  
+  useEffect(() => {
     if (isModalVisible) {
       Audio?.current?.play()
     } else Audio?.current?.pause()
